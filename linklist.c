@@ -53,3 +53,13 @@ void deleteAtItem(int value)
 		printf("Value not found. No node to delete\n");
 	}
 }
+
+void clearList()
+{
+	while(headPtr != NULL)
+	{
+		Node* currentPtr = headPtr->nextPtr;
+		free(headPtr);
+		headPtr = currentPtr;
+	}
+}

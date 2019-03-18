@@ -10,7 +10,8 @@ int main() {
 }
 deleteAtItem(20);
 printf("data at the head of list: %d \n", headPtr->nextPtr->data);
-	
+clearList();
+
     return 0;
 }
 
