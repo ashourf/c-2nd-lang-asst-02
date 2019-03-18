@@ -39,7 +39,7 @@ Second programming assignment for learning C as a second programming language.
 
 ### Extension
 
-Your choice here...
+2. I wrote a function to delete the node containg user selected value 
 
 ### Implementation notes
 
