@@ -43,6 +43,6 @@ Second programming assignment for learning C as a second programming language.
 
 ### Implementation notes
 
-Your description here. Code samples will be appreciated...
+The function takes an int value and sees if any of the nodes hold the value. If the value is in the node pointed to at the head. The nextPointer is saved and the head is freed. The next pointer becomes the new head. Else the list will be transvered from nextPtr to nextPtr and the previous pointer will be saved. When the value is found the next pointer after is saved. The current pointer is freed and the previous pointer is connected to the next pointer. If the value isn't found a message will be printed saying the value wasn't found in the link list. 
 
 
